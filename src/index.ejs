@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Root Config</title>
+  <title>MADiE</title>
   <!--
     Remove this if you only support browsers that support async/await.
     This is needed by babel to share largeish helper code for compiling async/await in older
@@ -32,7 +32,9 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js"
       }
     }
   </script>
@@ -45,7 +47,8 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@madie/root-config": "//localhost:9000/madie-root-config.js"
+        "@madie/root-config": "//localhost:9000/madie-root-config.js",
+        "@madie/madie-layout": "//localhost:8500/madie-madie-layout.js"
       }
     }
   </script>
@@ -70,7 +73,7 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
-  <main></main>
+  <main id="main"></main>
   <script>
     System.import('@madie/root-config');
   </script>

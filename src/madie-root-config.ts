@@ -1,19 +1,13 @@
 import { registerApplication, start } from "single-spa";
 
 registerApplication({
-  name: "@single-spa/welcome",
-  app: () =>
-    System.import(
-      "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
-    ),
+  name: "@madie/madie-layout",
+  app: () => System.import("@madie/madie-layout"),
   activeWhen: ["/"],
+  customProps: {
+    domElementGetter: (): HTMLElement | null => document.getElementById("main"),
+  },
 });
-
-// registerApplication({
-//   name: "@madie/navbar",
-//   app: () => System.import("@madie/navbar"),
-//   activeWhen: ["/"]
-// });
 
 start({
   urlRerouteOnly: true,
