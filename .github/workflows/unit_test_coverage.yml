@@ -92,7 +92,6 @@ jobs:
           name: coverage
 
       - name: Upload code coverage to Codecov
-      - name: Upload code coverage to Codecov
         uses: codecov/codecov-action@v2
         with:
           file: lcov.info
