@@ -4,8 +4,8 @@
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
-    "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
-    "coverage": "cross-env BABEL_ENV=test jest --coverage --passWithNoTests",
+    "test": "cross-env BABEL_ENV=test jest",
+    "coverage": "cross-env BABEL_ENV=test jest --coverage",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "prepare": "husky install",
@@ -20,6 +20,9 @@
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-typescript": "^7.14.5",
     "@babel/runtime": "^7.14.6",
+    "@types/jest": "^26.0.23",
+    "@types/systemjs": "^6.1.0",
+    "@types/webpack-env": "^1.16.0",
     "concurrently": "^6.2.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.29.0",
@@ -33,7 +36,9 @@
     "prettier": "^2.3.2",
     "pretty-quick": "^3.1.1",
     "serve": "^12.0.0",
+    "systemjs": "^6.10.3",
     "ts-config-single-spa": "^3.0.0",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.3.4",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2",
@@ -42,9 +47,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "@types/jest": "^26.0.23",
-    "@types/systemjs": "^6.1.0",
-    "@types/webpack-env": "^1.16.0",
     "single-spa": "^5.9.3"
   },
   "types": "dist/madie-root-config.d.ts"
