@@ -7,7 +7,7 @@ export interface ApplicationProps {
 export default interface ApplicationConfig
   extends RegisterApplicationConfig<ApplicationProps> {
   app: () => Promise<LifeCycles<ApplicationProps>>;
-  customProps: {
+  customProps?: {
     domElementGetter: () => HTMLElement | null;
   };
 }

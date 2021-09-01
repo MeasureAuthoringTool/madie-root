@@ -1,6 +1,7 @@
 /** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
+  rootDir: "src",
   preset: "ts-jest",
   testEnvironment: "node",
-  setupFiles: ["./src/test/mocks/browser.ts"],
+  setupFiles: ["./test/mocks/browser.ts"],
 };
