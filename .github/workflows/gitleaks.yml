@@ -3,7 +3,7 @@ name: Github Secrets Scanner
 on: [push]
 
 jobs:
-  build:
+  gitleaks_scan:
     runs-on: ubuntu-latest
     env:
       REPO: https://github.com/MeasureAuthoringTool/madie-root
