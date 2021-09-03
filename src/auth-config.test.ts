@@ -15,7 +15,16 @@ describe("Auth Config", () => {
       name: "@madie/madie-auth",
       app: expect.any(Function),
       activeWhen: ["/"],
+      customProps: {
+        domElementGetter: expect.any(Function),
+      },
     });
+  });
+
+  it("should have a domElementGetter to locate the #madie-auth element", () => {
+    document.getElementById = jest.fn(() => null);
+    expect(authConfig.customProps.domElementGetter()).toBeNull();
+    expect(document.getElementById).toHaveBeenCalledWith("madie-auth");
   });
 
   it("should have a module loader which loads the madie-auth app", async () => {

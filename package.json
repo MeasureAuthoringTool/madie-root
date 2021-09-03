@@ -1,6 +1,6 @@
 {
   "name": "@madie/root-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -20,7 +20,7 @@
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-typescript": "^7.14.5",
     "@babel/runtime": "^7.14.6",
-    "@types/jest": "^26.0.23",
+    "@types/jest": "^27.0.1",
     "@types/systemjs": "^6.1.0",
     "@types/webpack-env": "^1.16.0",
     "concurrently": "^6.2.0",
@@ -30,7 +30,7 @@
     "eslint-config-ts-important-stuff": "^1.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "html-webpack-plugin": "^5.3.2",
-    "husky": "^6.0.0",
+    "husky": "^7.0.2",
     "jest": "^27.0.5",
     "jest-cli": "^27.0.5",
     "prettier": "^2.3.2",
@@ -42,7 +42,7 @@
     "typescript": "^4.3.4",
     "webpack": "^5.40.0",
     "webpack-cli": "^4.7.2",
-    "webpack-config-single-spa-ts": "^3.0.0",
+    "webpack-config-single-spa-ts": "^4.1.0",
     "webpack-dev-server": "^4.0.0-rc.0",
     "webpack-merge": "^5.8.0"
   },
