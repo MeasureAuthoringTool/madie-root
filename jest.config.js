@@ -1,7 +1,8 @@
 /** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
-  rootDir: "src",
+  roots: ["<rootDir>/src/"],
+  modulePathIgnorePatterns: ["<rootDir>/dist/"],
   preset: "ts-jest",
   testEnvironment: "node",
-  setupFiles: ["./test/mocks/browser.ts"],
+  setupFiles: ["./src/test/mocks/browser.ts"],
 };
