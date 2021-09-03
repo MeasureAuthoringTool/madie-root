@@ -1,6 +1,6 @@
 {
   "name": "@madie/root-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
