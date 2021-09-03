@@ -62,7 +62,7 @@ jobs:
       - name: Store the coverage report as an artifact
         uses: actions/upload-artifact@v2
         with:
-          name: coverage
+          name: lcov.info
           path: coverage/lcov.info
 
   upload-codacy-coverage:
@@ -73,7 +73,7 @@ jobs:
       - name: Download coverage artifact
         uses: actions/download-artifact@v2
         with:
-          name: coverage
+          name: lcov.info
 
       - name: Upload code coverage to Codacy
         uses: codacy/codacy-coverage-reporter-action@master
@@ -89,7 +89,7 @@ jobs:
       - name: Download coverage artifact
         uses: actions/download-artifact@v2
         with:
-          name: coverage/lcov.info
+          name: lcov.info
 
       - name: Upload code coverage to Codecov
         uses: codecov/codecov-action@v2
