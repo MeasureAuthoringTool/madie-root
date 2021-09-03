@@ -89,7 +89,7 @@ jobs:
       - name: Download coverage artifact
         uses: actions/download-artifact@v2
         with:
-          name: coverage
+          name: coverage/lcov.info
 
       - name: Upload code coverage to Codecov
         uses: codecov/codecov-action@v2
