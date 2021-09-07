@@ -6,6 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MADiE</title>
 
+  <link rel="apple-touch-icon" sizes="120x120" href="<%=require('./assets/favicons/favicon-32x32.png')%>">
+  <link rel="apple-touch-icon" sizes="180x180" href="<%=require('./assets/favicons/apple-touch-icon.png')%>">
+  <link rel="icon" type="image/png" sizes="32x32" href="<%=require('./assets/favicons/favicon-32x32.png')%>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<%=require('./assets/favicons/favicon-16x16.png')%>">
+  <meta name="msapplication-square70x70logo" content="<%=require('./assets/favicons/mstile-150x150.png')%>">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
   <!--
     This CSP allows any SSL-enabled host and for arbitrary eval(), but you should limit these directives further to increase your app's security.
     Learn more about CSP policies at https://content-security-policy.com/#directive
@@ -36,20 +44,7 @@
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
 
   <!-- Add your organization's prod import map URL to this script's src  -->
-  <!-- <script type="systemjs-importmap" src="/importmap.json"></script> -->
-
-  <% if (isLocal) { %>
-  <script type="systemjs-importmap">
-    {
-      "imports": {
-        "@madie/root-config": "//localhost:9000/madie-root-config.js",
-        "@madie/madie-layout": "//localhost:8500/madie-madie-layout.js",
-        "@madie/madie-editor": "//localhost:8501/madie-madie-editor.js",
-        "@madie/madie-auth": "//localhost:8502/madie-madie-auth.js"
-      }
-    }
-  </script>
-  <% } %>
+  <script type="systemjs-importmap" src="/importmap/importmap.json"></script>
 
   <!--
     If you need to support Angular applications, uncomment the script tag below to ensure only one instance of ZoneJS is loaded
