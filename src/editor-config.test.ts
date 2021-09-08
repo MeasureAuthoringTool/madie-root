@@ -15,7 +15,16 @@ describe("Editor Config", () => {
       name: "@madie/madie-editor",
       app: expect.any(Function),
       activeWhen: ["/"],
+      customProps: {
+        domElementGetter: expect.any(Function),
+      },
     });
+  });
+
+  it("should have a domElementGetter to locate the #madie-editor element", () => {
+    document.getElementById = jest.fn(() => null);
+    expect(editorConfig.customProps.domElementGetter()).toBeNull();
+    expect(document.getElementById).toHaveBeenCalledWith("madie-editor");
   });
 
   it("should have a module loader which loads the madie-editor app", async () => {
