@@ -24,6 +24,7 @@ describe("Layout Config", () => {
   it("should have a domElementGetter to locate the #main element", () => {
     document.getElementById = jest.fn(() => null);
     expect(layoutConfig.customProps.domElementGetter()).toBeNull();
+    expect(document.getElementById).toHaveBeenCalledWith("main");
   });
 
   it("should have a module loader which loads the madie-layout app", async () => {
