@@ -1,3 +1,5 @@
+/** @format */
+
 const { merge } = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa-ts");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -30,6 +32,13 @@ module.exports = (webpackConfigEnv, argv) => {
             "node_modules/@madie/madie-editor/dist/"
           ),
           publicPath: "/madie-editor",
+        },
+        {
+          directory: path.join(
+            __dirname,
+            "node_modules/@madie/madie-public/dist/"
+          ),
+          publicPath: "/madie-public",
         },
         {
           directory: path.join(
