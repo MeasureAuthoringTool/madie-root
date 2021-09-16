@@ -1,8 +1,9 @@
 {
   "imports": {
     "@madie/root-config": "//localhost:9000/madie-root-config.js",
-    "@madie/madie-layout": "/madie-layout/madie-madie-layout.js",
+    "@madie/madie-layout": "//localhost:8500/madie-madie-layout.js",
     "@madie/madie-editor": "/madie-editor/madie-madie-editor.js",
-    "@madie/madie-auth": "/madie-auth/madie-madie-auth.js"
+    "@madie/madie-auth": "/madie-auth/madie-madie-auth.js",
+    "@madie/madie-public": "//localhost:8503/madie-madie-public.js"
   }
 }
