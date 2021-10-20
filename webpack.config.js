@@ -48,6 +48,13 @@ module.exports = (webpackConfigEnv, argv) => {
           publicPath: "/madie-auth",
         },
         {
+          directory: path.join(
+            __dirname,
+            "node_modules/@madie/madie-components/dist/"
+          ),
+          publicPath: "/madie-components",
+        },
+        {
           directory: path.join(__dirname, "local-dev-env"),
           publicPath: "/importmap",
         },
