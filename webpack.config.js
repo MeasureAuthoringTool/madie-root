@@ -55,11 +55,11 @@ module.exports = (webpackConfigEnv, argv) => {
           publicPath: "/madie-components",
         },
         {
-          directory: path.join(__dirname, "env-config"),
+          directory: path.join(__dirname, "local-dev-env"),
           publicPath: "/env-config",
         },
         {
-          directory: path.join(__dirname, "env-config"),
+          directory: path.join(__dirname, "local-dev-env"),
           publicPath: "/importmap",
         },
       ],
