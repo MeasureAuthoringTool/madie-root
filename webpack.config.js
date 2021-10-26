@@ -58,6 +58,10 @@ module.exports = (webpackConfigEnv, argv) => {
           directory: path.join(__dirname, "env-config"),
           publicPath: "/env-config",
         },
+        {
+          directory: path.join(__dirname, "env-config"),
+          publicPath: "/importmap",
+        },
       ],
     },
     // modify the webpack config however you'd like to by adding to this object
