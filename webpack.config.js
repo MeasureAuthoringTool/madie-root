@@ -56,6 +56,10 @@ module.exports = (webpackConfigEnv, argv) => {
         },
         {
           directory: path.join(__dirname, "local-dev-env"),
+          publicPath: "/env-config",
+        },
+        {
+          directory: path.join(__dirname, "local-dev-env"),
           publicPath: "/importmap",
         },
       ],
