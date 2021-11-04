@@ -55,7 +55,6 @@
     "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
-    "@madie/madie-measure": "file:../madie-measure/madie-madie-measure-0.0.2.tgz",
     "single-spa": "^5.9.3"
   },
   "types": "dist/madie-root-config.d.ts"
