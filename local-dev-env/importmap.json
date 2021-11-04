@@ -7,6 +7,5 @@
     "@madie/madie-public": "//localhost:8503/madie-madie-public.js",
     "@madie/madie-components": "//localhost:8504/madie-madie-components.js",
     "@madie/madie-measure": "//localhost:8505/madie-madie-measure.js"
-
   }
 }
