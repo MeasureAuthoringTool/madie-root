@@ -18,6 +18,7 @@ module.exports = (webpackConfigEnv, argv) => {
 
   return merge(defaultConfig, {
     devServer: {
+      headers: { "Access-Control-Allow-Origin": "*" },
       static: [
         {
           directory: path.join(
