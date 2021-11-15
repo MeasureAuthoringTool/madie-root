@@ -55,7 +55,8 @@
     "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
-    "single-spa": "^5.9.3"
+    "single-spa": "^5.9.3",
+    "single-spa-layout": "^2.0.1"
   },
   "types": "dist/madie-root-config.d.ts"
 }
