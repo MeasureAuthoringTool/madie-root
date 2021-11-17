@@ -14,7 +14,7 @@ describe("Measure Config", () => {
     expect(measureConfig).toMatchObject({
       name: "@madie/madie-measure",
       app: expect.any(Function),
-      activeWhen: ["/"],
+      activeWhen: ["/measure"],
       customProps: {
         domElementGetter: expect.any(Function),
       },
