@@ -1,3 +1,5 @@
+/** @format */
+
 const { merge } = require("webpack-merge");
 const singleSpaDefaults = require("webpack-config-single-spa-ts");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -16,6 +18,7 @@ module.exports = (webpackConfigEnv, argv) => {
 
   return merge(defaultConfig, {
     devServer: {
+      headers: { "Access-Control-Allow-Origin": "*" },
       static: [
         {
           directory: path.join(
@@ -34,9 +37,34 @@ module.exports = (webpackConfigEnv, argv) => {
         {
           directory: path.join(
             __dirname,
+            "node_modules/@madie/madie-public/dist/"
+          ),
+          publicPath: "/madie-public",
+        },
+        {
+          directory: path.join(
+            __dirname,
             "node_modules/@madie/madie-auth/dist/"
           ),
           publicPath: "/madie-auth",
+        },
+        {
+          directory: path.join(
+            __dirname,
+            "node_modules/@madie/madie-components/dist/"
+          ),
+          publicPath: "/madie-components",
+        },
+        {
+          directory: path.join(
+            __dirname,
+            "node_modules/@madie/madie-measure/dist/"
+          ),
+          publicPath: "/madie-measure",
+        },
+        {
+          directory: path.join(__dirname, "local-dev-env"),
+          publicPath: "/env-config",
         },
         {
           directory: path.join(__dirname, "local-dev-env"),
