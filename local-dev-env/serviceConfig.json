@@ -1,5 +1,8 @@
 {
   "measureService": {
     "baseUrl": "http://localhost:8080/api"
+  },
+  "elmTranslationService": {
+    "baseUrl": "https://dev-emeasuretool.hcqis.org"
   }
 }
