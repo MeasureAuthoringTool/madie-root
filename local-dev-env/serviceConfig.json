@@ -3,6 +3,9 @@
     "baseUrl": "http://localhost:8080/api"
   },
   "elmTranslationService": {
-    "baseUrl": "https://dev-emeasuretool.hcqis.org"
+    "baseUrl": "https://dev-madie.hcqis.org"
+  },
+  "testCaseService": {
+    "baseUrl": "http://localhost:8080/api"
   }
 }
