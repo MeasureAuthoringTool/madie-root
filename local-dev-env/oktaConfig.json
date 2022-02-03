@@ -1,4 +1,5 @@
 {
-  "oktaBaseUrl": "https://dev-18092578.okta.com",
+  "baseUrl": "https://dev-18092578.okta.com",
+  "issuerUrl": "https://dev-18092578.okta.com/oauth2/default",
   "clientId": "0oa2fqtaz95fqJqbf5d7"
 }
