@@ -7,6 +7,7 @@
     "@madie/madie-public": "//localhost:8503/madie-madie-public.js",
     "@madie/madie-components": "//localhost:8504/madie-madie-components.js",
     "@madie/madie-measure": "//localhost:8505/madie-madie-measure.js",
-    "@madie/madie-patient": "//localhost:8506/madie-madie-patient.js"
+    "@madie/madie-patient": "//localhost:8507/madie-madie-patient.js",
+    "@madie/madie-cql-library":"//localhots:8507/madie-madie-cql-library.js"
   }
 }
