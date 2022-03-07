@@ -1,5 +1,0 @@
-{
-  "version": "0.0.3",
-  "name": "@madie/madie-root",
-  "dependencies": { "single-spa": { "version": "5.9.3" } }
-}
