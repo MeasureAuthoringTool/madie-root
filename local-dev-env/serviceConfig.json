@@ -7,5 +7,8 @@
   },
   "testCaseService": {
     "baseUrl": "http://localhost:8080/api"
+  },
+  "loggingService": {
+    "baseUrl": "http://localhost:8080/api"
   }
 }
