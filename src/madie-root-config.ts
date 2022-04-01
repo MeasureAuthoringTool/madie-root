@@ -7,6 +7,7 @@ import publicConfig from "./public-config";
 import componentsConfig from "./components-config";
 import measureConfig from "./measure-config";
 import patientConfig from "./patient-config";
+import cqllibraryConfig from "./cql-library-config";
 
 registerApplication<ApplicationProps>(layoutConfig);
 registerApplication<ApplicationProps>(editorConfig);
@@ -15,6 +16,7 @@ registerApplication<ApplicationProps>(publicConfig);
 registerApplication<ApplicationProps>(componentsConfig);
 registerApplication<ApplicationProps>(measureConfig);
 registerApplication<ApplicationProps>(patientConfig);
+registerApplication<ApplicationProps>(cqllibraryConfig);
 
 start({
   urlRerouteOnly: true,
