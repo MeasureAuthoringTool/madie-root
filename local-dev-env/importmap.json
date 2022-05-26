@@ -8,6 +8,9 @@
     "@madie/madie-components": "//localhost:8504/madie-madie-components.js",
     "@madie/madie-measure": "//localhost:8505/madie-madie-measure.js",
     "@madie/madie-patient": "//localhost:8506/madie-madie-patient.js",
-    "@madie/madie-cql-library": "//localhost:8507/madie-madie-cql-library.js"
+    "@madie/madie-cql-library": "//localhost:8507/madie-madie-cql-library.js",
+    "@madie/madie-util": "//localhost:8508/madie-madie-util.js",
+    "rxjs": "https://unpkg.com/@esm-bundle/rxjs/system/rxjs.min.js",
+    "rxjs/operators": "https://unpkg.com/@esm-bundle/rxjs/system/rxjs-operators.min.js"
   }
 }
