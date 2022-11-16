@@ -41,7 +41,9 @@
       "imports": {
         "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
         "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js",
-        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js"
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js",
+        "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/rxjs.min.js",
+        "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/rxjs-operators.min.js"
       }
     }
   </script>
@@ -78,6 +80,7 @@
     <div id="madie-public"></div>  
     <div id="madie-components"></div>
     <div id="madie-patient"></div>
+    <div id="madie-cql-library"></div>
   </div>
   <script>
     System.import('@madie/root-config');
