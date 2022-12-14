@@ -3,7 +3,7 @@
     "baseUrl": "http://localhost:8080/api"
   },
   "elmTranslationService": {
-    "baseUrl": "http://localhost:8084/api"
+    "baseUrl": "https://dev-madie.hcqis.org"
   },
   "testCaseService": {
     "baseUrl": "http://localhost:8080/api"
@@ -17,8 +17,5 @@
   "terminologyService": {
     "baseUrl": "http://localhost:8081/api"
   },
-
-  "madieVersion":"1.0.3"
-  
-
+  "madieVersion": "1.0.3"
 }
