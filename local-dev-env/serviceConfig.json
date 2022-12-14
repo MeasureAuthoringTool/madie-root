@@ -17,6 +17,6 @@
   "terminologyService": {
     "baseUrl": "http://localhost:8081/api"
   },
-  "madieVersion":"1.0.3"
+  "madieVersion": "1.0.3"
   
 }
