@@ -1,21 +1,25 @@
 {
   "measureService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "elmTranslationService": {
-    "baseUrl": "https://dev-madie.hcqis.org"
+    "baseUrl": "http://localhost:8084/api"
   },
   "testCaseService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "cqlLibraryService": {
     "baseUrl": "http://localhost:8082/api"
   },
   "loggingService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "terminologyService": {
     "baseUrl": "http://localhost:8081/api"
   },
-  "madieVersion": "1.0.3"
+  "madieVersion": "1.0.3",
+  "features": {
+    "export": true,
+    "measureVersioning": true
+  }
 }
