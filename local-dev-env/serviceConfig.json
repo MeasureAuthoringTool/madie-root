@@ -21,6 +21,6 @@
   "features": {
     "export": true,
     "measureVersioning": true,
-    "populationCriteriaTabStructure": false
+    "populationCriteriaTabs": false
   }
 }
