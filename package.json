@@ -47,7 +47,7 @@
     "ts-config-single-spa": "^3.0.0",
     "ts-jest": "^28.0.5",
     "typescript": "^4.7.4",
-    "webpack": "^5.73.0",
+    "webpack": "^5.76.1",
     "webpack-cli": "^4.10.0",
     "webpack-config-single-spa-ts": "^4.1.2",
     "webpack-dev-server": "^4.9.3",
