@@ -21,6 +21,7 @@
   "features": {
     "export": true,
     "populationCriteriaTabs": false,
-    "qdm":true
+    "qdm": true,
+    "qdmTestCases": false
   }
 }
