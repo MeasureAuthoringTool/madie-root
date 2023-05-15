@@ -20,6 +20,7 @@
   "madieVersion": "1.0.3",
   "features": {
     "export": true,
-    "populationCriteriaTabs": false
+    "populationCriteriaTabs": false,
+    "qdm":true
   }
 }
