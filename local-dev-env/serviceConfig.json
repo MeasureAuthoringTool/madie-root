@@ -22,6 +22,8 @@
     "export": true,
     "populationCriteriaTabs": false,
     "qdm": true,
-    "qdmTestCases": false
+    "qdmTestCases": false,
+    "qdmExport": false,
+    "qdmVersioning": false
   }
 }
