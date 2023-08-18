@@ -1,12 +1,12 @@
 {
   "measureService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "elmTranslationService": {
     "baseUrl": "http://localhost:8084/api"
   },
   "testCaseService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "cqlLibraryService": {
     "baseUrl": "http://localhost:8082/api"
@@ -20,10 +20,11 @@
   "madieVersion": "1.0.3",
   "features": {
     "export": true,
-    "populationCriteriaTabs": false,
-    "qdm": true,
-    "qdmTestCases": false,
-    "qdmExport": false,
-    "qdmVersioning": false
+    "populationCriteriaTabs": true,
+    "qdm":true,
+    "qdmTestCases": true,
+    "qdmExport": true,
+    "qdmVersioning": true,
+    "qiCoreElementsTab": true
   }
 }
