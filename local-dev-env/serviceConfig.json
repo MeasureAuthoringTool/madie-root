@@ -25,6 +25,7 @@
     "qdmTestCases": false,
     "qdmExport": false,
     "qdmVersioning": false,
-    "qiCoreElementsTab": false
+    "qiCoreElementsTab": false,
+    "highlightingTabs": false
   }
 }
