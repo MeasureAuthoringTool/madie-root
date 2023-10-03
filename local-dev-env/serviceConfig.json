@@ -26,6 +26,7 @@
     "qdmExport": false,
     "qdmVersioning": false,
     "qiCoreElementsTab": false,
-    "highlightingTabs": false
+    "highlightingTabs": false,
+    "exportQiCoreBundleType":true
   }
 }
