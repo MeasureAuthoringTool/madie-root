@@ -20,7 +20,14 @@
   "madieVersion": "1.0.3",
   "features": {
     "export": true,
-    "measureVersioning": true,
-    "populationCriteriaTabs": false
+    "populationCriteriaTabs": false,
+    "qdm": true,
+    "qdmTestCases": false,
+    "qdmExport": false,
+    "qdmVersioning": false,
+    "qiCoreElementsTab": false,
+    "highlightingTabs": false,
+    "exportQiCoreBundleType": false,
+    "disableRunTestCaseWithObservStrat": true
   }
 }
