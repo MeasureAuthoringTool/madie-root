@@ -28,6 +28,7 @@
     "qiCoreElementsTab": false,
     "highlightingTabs": false,
     "exportQiCoreBundleType": false,
-    "disableRunTestCaseWithObservStrat": true
+    "disableRunTestCaseWithObservStrat": true,
+    "qdmHideJson": true
   }
 }
