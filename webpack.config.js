@@ -37,13 +37,6 @@ module.exports = (webpackConfigEnv, argv) => {
         {
           directory: path.join(
             __dirname,
-            "node_modules/@madie/madie-public/dist/"
-          ),
-          publicPath: "/madie-public",
-        },
-        {
-          directory: path.join(
-            __dirname,
             "node_modules/@madie/madie-auth/dist/"
           ),
           publicPath: "/madie-auth",
