@@ -20,10 +20,10 @@
   "madieVersion": "1.0.3",
   "features": {
     "qdmExport": false,
+    "qdmTestCases": true,
     "qiCoreElementsTab": false,
     "highlightingTabs": false,
     "qdmHighlightingTabs": false,
-    "exportQiCoreBundleType": false,
     "disableRunTestCaseWithObservStrat": true,
     "qdmHideJson": true
   }
