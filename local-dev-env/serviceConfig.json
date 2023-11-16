@@ -22,6 +22,7 @@
     "qdmExport": false,
     "qiCoreElementsTab": false,
     "highlightingTabs": false,
+    "qdmHighlightingTabs": false,
     "exportQiCoreBundleType": false,
     "disableRunTestCaseWithObservStrat": true,
     "qdmHideJson": true
