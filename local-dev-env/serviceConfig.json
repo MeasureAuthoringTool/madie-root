@@ -19,12 +19,13 @@
   },
   "madieVersion": "1.0.3",
   "features": {
-    "qdmExport": false,
+    "qdmExport": true,
     "qdmTestCases": true,
     "qiCoreElementsTab": false,
-    "highlightingTabs": false,
+    "highlightingTabs": true,
     "qdmHighlightingTabs": false,
-    "disableRunTestCaseWithObservStrat": true,
-    "qdmHideJson": true
+    "importTestCases": true,
+    "disableRunTestCaseWithObservStrat": false,
+    "qdmHideJson": false
   }
 }
