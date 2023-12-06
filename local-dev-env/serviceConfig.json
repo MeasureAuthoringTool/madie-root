@@ -25,6 +25,7 @@
     "highlightingTabs": true,
     "qdmHighlightingTabs": false,
     "importTestCases": true,
+    "qiCoreBonnieTestCases": false,
     "disableRunTestCaseWithObservStrat": false,
     "qdmHideJson": false
   }
