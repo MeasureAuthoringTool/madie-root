@@ -24,6 +24,7 @@
     "qiCoreElementsTab": false,
     "highlightingTabs": true,
     "qdmHighlightingTabs": false,
+    "qdmMeasureDefinitions": false,
     "importTestCases": true,
     "qiCoreBonnieTestCases": false,
     "disableRunTestCaseWithObservStrat": false,
