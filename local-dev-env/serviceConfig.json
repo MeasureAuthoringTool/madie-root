@@ -28,6 +28,7 @@
     "importTestCases": true,
     "qiCoreBonnieTestCases": false,
     "disableRunTestCaseWithObservStrat": false,
-    "qdmHideJson": false
+    "qdmHideJson": false,
+    "enableQdmRepeatTransfer": true
   }
 }
