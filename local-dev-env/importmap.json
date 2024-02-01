@@ -4,7 +4,6 @@
     "@madie/madie-layout": "//localhost:8500/madie-madie-layout.js",
     "@madie/madie-editor": "//localhost:8501/madie-madie-editor.js",
     "@madie/madie-auth": "//localhost:8502/madie-madie-auth.js",
-    "@madie/madie-components": "//localhost:8504/madie-madie-components.js",
     "@madie/madie-measure": "//localhost:8505/madie-madie-measure.js",
     "@madie/madie-patient": "//localhost:8506/madie-madie-patient.js",
     "@madie/madie-cql-library": "//localhost:8507/madie-madie-cql-library.js",
