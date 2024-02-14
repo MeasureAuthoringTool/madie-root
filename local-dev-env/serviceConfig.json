@@ -1,12 +1,12 @@
 {
   "measureService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "elmTranslationService": {
     "baseUrl": "http://localhost:8084/api"
   },
   "testCaseService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "cqlLibraryService": {
     "baseUrl": "http://localhost:8082/api"
@@ -31,6 +31,6 @@
     "disableRunTestCaseWithObservStrat": false,
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": true,
-    "generateCMSID":false
+    "generateCMSID": false
   }
 }
