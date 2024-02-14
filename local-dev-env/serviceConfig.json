@@ -30,6 +30,7 @@
     "qiCoreBonnieTestCases": false,
     "disableRunTestCaseWithObservStrat": false,
     "qdmHideJson": false,
-    "enableQdmRepeatTransfer": true
+    "enableQdmRepeatTransfer": true,
+    "generateCMSID": false
   }
 }
