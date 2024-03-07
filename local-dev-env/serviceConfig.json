@@ -33,6 +33,6 @@
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": true,
     "generateCMSID": false,
-    "qrdaExport": false
+    "testCaseExport": false
   }
 }
