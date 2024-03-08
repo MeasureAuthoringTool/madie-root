@@ -32,6 +32,7 @@
     "disableRunTestCaseWithObservStrat": false,
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": true,
-    "generateCMSID": false
+    "generateCMSID": false,
+    "testCaseExport": false
   }
 }
