@@ -26,6 +26,7 @@
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": true,
     "generateCMSID": false,
-    "testCaseExport": false
+    "testCaseExport": false,
+    "qdmCodeSearch": false
   }
 }
