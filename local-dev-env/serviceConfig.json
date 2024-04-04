@@ -27,6 +27,7 @@
     "enableQdmRepeatTransfer": true,
     "generateCMSID": false,
     "testCaseExport": false,
-    "qdmCodeSearch": false
+    "qdmCodeSearch": false,
+    "QDMValueSetSearch": false
   }
 }
