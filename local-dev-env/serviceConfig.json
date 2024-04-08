@@ -19,7 +19,8 @@
   },
   "madieVersion": "1.0.3",
   "features": {
-    "includeSDEValues": false,
+    "includeSDEValues": true,
+    "manifestExpansion": true,
     "qdmExport": true,
     "qiCoreElementsTab": false,
     "qiCoreBonnieTestCases": false,
