@@ -17,6 +17,9 @@
   "terminologyService": {
     "baseUrl": "http://localhost:8081/api"
   },
+  "excelExportService": {
+    "baseUrl": "http://localhost:3000"
+  },
   "madieVersion": "1.0.3",
   "features": {
     "includeSDEValues": true,
