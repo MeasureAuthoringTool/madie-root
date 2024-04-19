@@ -18,7 +18,7 @@
     "baseUrl": "http://localhost:8081/api"
   },
   "excelExportService": {
-    "baseUrl": "http://localhost:3000"
+    "baseUrl": "http://localhost:3000/api"
   },
   "madieVersion": "1.0.3",
   "features": {
