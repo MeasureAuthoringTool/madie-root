@@ -2,8 +2,11 @@
   "measureService": {
     "baseUrl": "http://localhost:8080/api"
   },
-  "elmTranslationService": {
+  "qdmElmTranslationService": {
     "baseUrl": "http://localhost:8084/api"
+  },
+  "fhirElmTranslationService": {
+    "baseUrl": "http://localhost:8083/api"
   },
   "testCaseService": {
     "baseUrl": "http://localhost:8080/api"
