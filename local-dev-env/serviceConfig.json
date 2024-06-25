@@ -35,6 +35,7 @@
     "generateCMSID": false,
     "testCaseExport": false,
     "qdmCodeSearch": false,
-    "QDMValueSetSearch": false
+    "QDMValueSetSearch": false,
+    "ShiftTestCasesDates": true
   }
 }
