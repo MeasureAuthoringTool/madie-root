@@ -36,6 +36,7 @@
     "testCaseExport": false,
     "qdmCodeSearch": false,
     "QDMValueSetSearch": false,
-    "ShiftTestCasesDates": true
+    "ShiftTestCasesDates": true,
+    "MeasureListCheckboxes": false
   }
 }
