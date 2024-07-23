@@ -38,6 +38,9 @@
     "qdmCodeSearch": false,
     "QDMValueSetSearch": false,
     "ShiftTestCasesDates": true,
-    "MeasureListCheckboxes": false
+    "MeasureListCheckboxes": false,
+    "qiCoreStu4Updates": true,
+    "associateMeasures": false,
+    "CQLBuilderDefinitions": true
   }
 }
