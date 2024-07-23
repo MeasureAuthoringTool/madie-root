@@ -25,6 +25,7 @@
   },
   "madieVersion": "1.0.3",
   "features": {
+    "CQLBuilderIncludes": false,
     "includeSDEValues": true,
     "manifestExpansion": true,
     "qdmExport": true,
