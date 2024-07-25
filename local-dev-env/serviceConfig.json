@@ -1,6 +1,6 @@
 {
   "measureService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "qdmElmTranslationService": {
     "baseUrl": "http://localhost:8084/api"
@@ -9,13 +9,13 @@
     "baseUrl": "http://localhost:8083/api"
   },
   "testCaseService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "cqlLibraryService": {
     "baseUrl": "http://localhost:8082/api"
   },
   "loggingService": {
-    "baseUrl": "http://localhost:8080/api"
+    "baseUrl": "http://localhost:8086/api"
   },
   "terminologyService": {
     "baseUrl": "http://localhost:8081/api"
@@ -32,15 +32,16 @@
     "qiCoreElementsTab": false,
     "qiCoreBonnieTestCases": false,
     "qdmHideJson": false,
-    "enableQdmRepeatTransfer": true,
-    "generateCMSID": false,
-    "testCaseExport": false,
-    "qdmCodeSearch": false,
-    "QDMValueSetSearch": false,
+    "enableQdmRepeatTransfer": false,
+    "generateCMSID": true,
+    "testCaseExport": true,
+    "qdmCodeSearch": true,
+    "QDMValueSetSearch": true,
     "ShiftTestCasesDates": true,
-    "MeasureListCheckboxes": false,
     "qiCoreStu4Updates": true,
-    "associateMeasures": false,
-    "CQLBuilderDefinitions": true
+    "MeasureListCheckboxes": true,
+    "associateMeasures": true,
+    "CQLBuilderDefinitions": true,
+    "CQLBuilderTabs": true
   }
 }
