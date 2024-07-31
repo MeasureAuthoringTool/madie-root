@@ -36,7 +36,6 @@
     "qiCoreStu4Updates": true,
     "MeasureListCheckboxes": true,
     "associateMeasures": true,
-    "CQLBuilderDefinitions": true,
-    "CQLBuilderTabs": true
+    "CQLBuilderDefinitions": true
   }
 }
