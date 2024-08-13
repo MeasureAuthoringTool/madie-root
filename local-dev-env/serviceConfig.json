@@ -26,6 +26,7 @@
   "madieVersion": "1.0.3",
   "features": {
     "CQLBuilderIncludes": false,
+    "qiCore6": false,
     "qiCoreElementsTab": false,
     "qiCoreBonnieTestCases": false,
     "qdmHideJson": false,
