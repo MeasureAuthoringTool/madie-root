@@ -46,14 +46,14 @@
     "webpack-config-single-spa-ts": "^4.1.2",
     "webpack-dev-server": "^4.9.3",
     "webpack-merge": "^5.8.0",
-    "webpack-pwa-manifest": "^4.3.0"
+    "webpack-pwa-manifest": "^4.0.0"
   },
   "dependencies": {
     "@madie/madie-auth": "^0.0.2",
     "@madie/madie-editor": "^0.0.2",
     "@madie/madie-layout": "^0.0.2",
     "@madie/madie-measure": "^0.0.2",
-    "serve": "^14.1.2",
+    "serve": "^14.2.3",
     "single-spa": "^5.9.4",
     "systemjs": "^6.12.1"
   },
