@@ -57,5 +57,8 @@
     "single-spa": "^5.9.4",
     "systemjs": "^6.12.1"
   },
+  "overrides": {
+    "path-to-regexp": "8.1.0 "
+  },
   "types": "dist/madie-root-config.d.ts"
 }
