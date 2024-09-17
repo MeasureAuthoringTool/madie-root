@@ -20,6 +20,9 @@
   "terminologyService": {
     "baseUrl": "http://localhost:8081/api"
   },
+  "fhirDefinitionsService": {
+    "baseUrl": "http://localhost:3001/api"
+  },
   "excelExportService": {
     "baseUrl": "http://localhost:3000/api"
   },
@@ -27,7 +30,7 @@
   "features": {
     "CQLBuilderIncludes": false,
     "qiCore6": false,
-    "qiCoreElementsTab": false,
+    "qiCoreElementsTab": true,
     "qiCoreBonnieTestCases": false,
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": false,
