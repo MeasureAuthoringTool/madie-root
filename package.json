@@ -58,7 +58,7 @@
     "systemjs": "^6.12.1"
   },
   "overrides": {
-    "path-to-regexp": "8.1.0 "
+    "path-to-regexp": "3.3.0"
   },
   "types": "dist/madie-root-config.d.ts"
 }
