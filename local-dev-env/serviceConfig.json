@@ -38,6 +38,7 @@
     "MeasureListCheckboxes": true,
     "associateMeasures": true,
     "CQLBuilderDefinitions": true,
-    "TestCaseListSearch": true
+    "TestCaseListSearch": true,
+    "TestCaseID": false
   }
 }
