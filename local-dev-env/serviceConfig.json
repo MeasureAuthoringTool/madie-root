@@ -29,6 +29,7 @@
   "madieVersion": "1.0.3",
   "features": {
     "CQLBuilderIncludes": false,
+    "CQLBuilderParameters": false,
     "qiCore6": false,
     "qiCoreElementsTab": true,
     "qiCoreBonnieTestCases": false,
@@ -41,6 +42,7 @@
     "MeasureListCheckboxes": true,
     "associateMeasures": true,
     "CQLBuilderDefinitions": true,
-    "TestCaseListSearch": true
+    "TestCaseListSearch": true,
+    "TestCaseID": false
   }
 }
