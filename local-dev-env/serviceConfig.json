@@ -39,6 +39,7 @@
     "stu6TestCaseValidation": false,
     "QICoreCodeSearch": false,
     "QICoreValueSetSearch": false,
-    "CopyTestCases": false
+    "CopyTestCases": false,
+    "QICoreMeasureDefinitions":false
   }
 }
