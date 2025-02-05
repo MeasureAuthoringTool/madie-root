@@ -40,6 +40,6 @@
     "QICoreCodeSearch": false,
     "QICoreValueSetSearch": false,
     "CopyTestCases": false,
-    "QICoreMeasureDefinitions":false
+    "QICoreMeasureDefinitions": false
   }
 }
