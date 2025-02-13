@@ -36,7 +36,7 @@
     "CopyTestCases": false,
     "QICoreMeasureDefinitions": false,
     "ShareMeasure": false,
-    "LibraryListButtons":false,
-    "LibraryListCheckboxes":false
+    "LibraryListButtons": false,
+    "LibraryListCheckboxes": false
   }
 }
