@@ -35,6 +35,7 @@
     "stu6TestCaseValidation": false,
     "CopyTestCases": false,
     "QICoreMeasureDefinitions": false,
-    "ShareMeasure": false
+    "ShareMeasure": false,
+    "QICoreIncludeSDEValues": false
   }
 }
