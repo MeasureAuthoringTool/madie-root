@@ -37,6 +37,7 @@
     "QICoreMeasureDefinitions": false,
     "ShareMeasure": false,
     "LibraryListButtons": false,
-    "LibraryListCheckboxes": false
+    "LibraryListCheckboxes": false,
+    "QICoreIncludeSDEValues": false
   }
 }
