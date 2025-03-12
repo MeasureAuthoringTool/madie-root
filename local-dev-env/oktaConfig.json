@@ -1,5 +1,6 @@
 {
   "baseUrl": "https://dev-18092578.okta.com",
   "issuerUrl": "https://dev-18092578.okta.com/oauth2/default",
-  "clientId": "0oa2fqtaz95fqJqbf5d7"
+  "clientId": "0oa2fqtaz95fqJqbf5d7",
+  "scopes": ["profile","openid","email"]
 }
