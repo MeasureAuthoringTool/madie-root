@@ -41,6 +41,7 @@
     "LibraryListCheckboxes": false,
     "QICoreIncludeSDEValues": false,
     "MeasureSearch": false,
-    "QICoreManifestExpansion": false
+    "QICoreManifestExpansion": false,
+    "OverlappingValueSets": false
   }
 }
