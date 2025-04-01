@@ -42,6 +42,7 @@
     "QICoreIncludeSDEValues": false,
     "MeasureSearch": false,
     "QICoreManifestExpansion": false,
-    "OverlappingValueSets": false
+    "OverlappingValueSets": false,
+    "TestCaseListActionCenter": true
   }
 }
