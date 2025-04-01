@@ -43,6 +43,6 @@
     "MeasureSearch": false,
     "QICoreManifestExpansion": false,
     "OverlappingValueSets": false,
-    "TestCaseListActionCenter": true
+    "TestCaseListActionCenter": false
   }
 }
