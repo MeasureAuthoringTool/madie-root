@@ -41,6 +41,7 @@
     "LibraryListCheckboxes": false,
     "QICoreIncludeSDEValues": false,
     "MeasureSearch": false,
+    "LibrarySearch": false,
     "QICoreManifestExpansion": false,
     "OverlappingValueSets": false,
     "TestCaseListActionCenter": false
