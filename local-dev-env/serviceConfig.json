@@ -36,6 +36,7 @@
     "CopyTestCases": false,
     "QICoreMeasureDefinitions": false,
     "ShareMeasure": false,
+    "ShareLibrary": false,
     "LibraryListButtons": false,
     "LibraryListCheckboxes": false,
     "QICoreIncludeSDEValues": false,
