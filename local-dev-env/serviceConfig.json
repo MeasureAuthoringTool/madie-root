@@ -35,11 +35,16 @@
     "stu6TestCaseValidation": false,
     "CopyTestCases": false,
     "QICoreMeasureDefinitions": false,
+    "QICoreMeasureReferences": false,
     "ShareMeasure": false,
     "ShareLibrary": false,
     "LibraryListButtons": false,
     "LibraryListCheckboxes": false,
     "QICoreIncludeSDEValues": false,
-    "MeasureSearch": false
+    "MeasureSearch": false,
+    "LibrarySearch": false,
+    "QICoreManifestExpansion": false,
+    "OverlappingValueSets": false,
+    "TestCaseListActionCenter": false
   }
 }
