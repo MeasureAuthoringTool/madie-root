@@ -45,6 +45,7 @@
     "LibrarySearch": false,
     "QICoreManifestExpansion": false,
     "OverlappingValueSets": false,
-    "TestCaseListActionCenter": false
+    "TestCaseListActionCenter": false,
+    "MinimizeAlerts": false
   }
 }
