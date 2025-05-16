@@ -46,6 +46,7 @@
     "QICoreManifestExpansion": false,
     "OverlappingValueSets": false,
     "TestCaseListActionCenter": false,
-    "MinimizeAlerts": false
+    "MinimizeAlerts": false,
+    "EditTestsOnVersionedMeasures": false
   }
 }
