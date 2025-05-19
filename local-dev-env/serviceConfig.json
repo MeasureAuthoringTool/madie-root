@@ -41,6 +41,7 @@
     "LibraryListButtons": false,
     "LibraryListCheckboxes": false,
     "QICoreIncludeSDEValues": false,
+    "QDMIncludeRAVValues": false,
     "MeasureSearch": false,
     "LibrarySearch": false,
     "QICoreManifestExpansion": false,
