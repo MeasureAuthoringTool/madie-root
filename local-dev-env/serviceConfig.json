@@ -48,6 +48,7 @@
     "OverlappingValueSets": false,
     "TestCaseListActionCenter": false,
     "MinimizeAlerts": false,
-    "EditTestsOnVersionedMeasures": false
+    "EditTestsOnVersionedMeasures": false,
+    "EnhancedTextFormatting": false
   }
 }
