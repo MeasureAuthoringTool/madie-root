@@ -49,6 +49,7 @@
     "TestCaseListActionCenter": false,
     "MinimizeAlerts": false,
     "EditTestsOnVersionedMeasures": false,
-    "EnhancedTextFormatting": false
+    "EnhancedTextFormatting": false,
+    "qiCore7": false
   }
 }
