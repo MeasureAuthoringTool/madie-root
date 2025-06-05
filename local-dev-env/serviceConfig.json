@@ -38,6 +38,8 @@
     "LibrarySearch": false,
     "OverlappingValueSets": false,
     "MinimizeAlerts": false,
-    "EditTestsOnVersionedMeasures": false
+    "EditTestsOnVersionedMeasures": false,
+    "EnhancedTextFormatting": false,
+    "qiCore7": false
   }
 }
