@@ -34,6 +34,7 @@
     "enableQdmRepeatTransfer": false,
     "stu6TestCaseValidation": false,
     "QDMIncludeRAVValues": false,
+    "QICoreIncludeRAVValues": false,
     "MeasureSearch": false,
     "LibrarySearch": false,
     "OverlappingValueSets": false,
