@@ -4,6 +4,7 @@
   "files": [
     "dist/**/*"
   ],
+  "type": "module",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -16,6 +17,10 @@
     "build:webpack": "webpack --mode=production",
     "build:types": "tsc"
   },
+  "peerDependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@babel/eslint-parser": "^7.18.2",
@@ -26,12 +31,14 @@
     "@types/jest": "^28.1.4",
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.17.0",
+    "babel-plugin-macros": "^3.1.0",
     "concurrently": "^7.2.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-ts-important-stuff": "^1.1.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.1",
     "jest": "^28.0.0",
@@ -49,6 +56,7 @@
     "webpack-pwa-manifest": "^4.0.0"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.27.1",
     "@madie/madie-auth": "^0.0.2",
     "@madie/madie-editor": "^0.0.2",
     "@madie/madie-layout": "^0.0.2",

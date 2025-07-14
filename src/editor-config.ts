@@ -1,12 +1,14 @@
-import ApplicationConfig from "./ApplicationConfig";
+import { RegisterApplicationConfig, LifeCycles } from "single-spa";
 
-const config: ApplicationConfig = {
+const config: RegisterApplicationConfig = {
   name: "@madie/madie-editor",
-  app: () => System.import("@madie/madie-editor"),
+  app: () =>
+    import("@madie/madie-editor") as Promise<{
+      default: LifeCycles;
+    }>,
   activeWhen: ["/"],
   customProps: {
-    domElementGetter: (): HTMLElement | null =>
-      document.getElementById("madie-editor"),
+    domElementGetter: () => document.getElementById("madie-editor"),
   },
 };
 

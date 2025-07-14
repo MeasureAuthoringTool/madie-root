@@ -1,13 +1,19 @@
 {
   "imports": {
+    "single-spa": "https://esm.sh/single-spa@latest",
+
+    "react": "https://esm.sh/react@19",
+    "react-dom": "https://esm.sh/react-dom@19",
+
+    "rxjs": "https://esm.sh/rxjs@7",
+    "rxjs/operators": "https://esm.sh/rxjs@7/operators",
+
     "@madie/root-config": "//localhost:9000/madie-root-config.js",
     "@madie/madie-layout": "//localhost:8500/madie-madie-layout.js",
     "@madie/madie-editor": "//localhost:8501/madie-madie-editor.js",
     "@madie/madie-auth": "//localhost:8502/madie-madie-auth.js",
     "@madie/madie-measure": "//localhost:8505/madie-madie-measure.js",
     "@madie/madie-cql-library": "//localhost:8507/madie-madie-cql-library.js",
-    "@madie/madie-util": "//localhost:8508/madie-madie-util.js",
-    "rxjs": "https://unpkg.com/@esm-bundle/rxjs/system/rxjs.min.js",
-    "rxjs/operators": "https://unpkg.com/@esm-bundle/rxjs/system/rxjs-operators.min.js"
+    "@madie/madie-util": "//localhost:8508/madie-madie-util.js"
   }
 }

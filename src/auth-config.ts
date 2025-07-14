@@ -1,12 +1,14 @@
-import ApplicationConfig from "./ApplicationConfig";
+import { RegisterApplicationConfig, LifeCycles } from "single-spa";
 
-const config: ApplicationConfig = {
+const config: RegisterApplicationConfig = {
   name: "@madie/madie-auth",
-  app: () => System.import("@madie/madie-auth"),
+  app: () =>
+    import("@madie/madie-auth") as Promise<{
+      default: LifeCycles;
+    }>,
   activeWhen: ["/"],
   customProps: {
-    domElementGetter: (): HTMLElement | null =>
-      document.getElementById("madie-auth"),
+    domElementGetter: () => document.getElementById("madie-auth"),
   },
 };
 

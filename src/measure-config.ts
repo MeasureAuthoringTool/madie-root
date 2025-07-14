@@ -1,9 +1,12 @@
-import ApplicationConfig from "./ApplicationConfig";
+import { RegisterApplicationConfig, LifeCycles } from "single-spa";
 
-const config: ApplicationConfig = {
+const config: RegisterApplicationConfig = {
   name: "@madie/madie-measure",
-  app: () => System.import("@madie/madie-measure"),
-  activeWhen: ["/measure"],
+  app: () =>
+    import("@madie/madie-measure") as Promise<{
+      default: LifeCycles;
+    }>,
+  activeWhen: ["/"],
   customProps: {
     domElementGetter: (): HTMLElement | null =>
       document.getElementById("madie-measure"),

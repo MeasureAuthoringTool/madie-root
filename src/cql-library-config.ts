@@ -1,12 +1,14 @@
-import ApplicationConfig from "./ApplicationConfig";
+import { RegisterApplicationConfig, LifeCycles } from "single-spa";
 
-const config: ApplicationConfig = {
+const config: RegisterApplicationConfig = {
   name: "@madie/madie-cql-library",
-  app: () => System.import("@madie/madie-cql-library"),
+  app: () =>
+    import("@madie/madie-cql-library") as Promise<{
+      default: LifeCycles;
+    }>,
   activeWhen: ["/"],
   customProps: {
-    domElementGetter: (): HTMLElement | null =>
-      document.getElementById("madie-cql-library"),
+    domElementGetter: () => document.getElementById("madie-cql-library"),
   },
 };
 

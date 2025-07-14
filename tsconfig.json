@@ -2,6 +2,7 @@
   "extends": "ts-config-single-spa",
   "files": ["src/madie-root-config.ts"],
   "compilerOptions": {
+    "typeRoots": ["./types", "./node_modules/@types"],
     "declarationDir": "dist"
   },
   "include": ["src/**/*"],

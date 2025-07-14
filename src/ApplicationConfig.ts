@@ -5,8 +5,9 @@ export interface ApplicationProps {
 }
 
 export default interface ApplicationConfig
-  extends RegisterApplicationConfig<ApplicationProps> {
-  app: () => Promise<LifeCycles<ApplicationProps>>;
+  extends Omit<RegisterApplicationConfig<ApplicationProps>, "app"> {
+  // updated `app` type to reflect native ESM dynamic import with default export
+  app: () => Promise<{ default: LifeCycles<ApplicationProps> }>;
   customProps: {
     domElementGetter: () => HTMLElement | null;
   };
