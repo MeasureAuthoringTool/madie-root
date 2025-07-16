@@ -68,22 +68,14 @@
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/named-register.js"></script>
-  <script src="/local-dev-env/madie-matomo.js">
   <% } else { %>
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/named-register.min.js"></script>
   <% } %>
 
-  <!-- Matomo Tag Manager -->
-  <script>
-    var _mtm = window._mtm = window._mtm || [];
-    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-    (function() {
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://qnetmatomo.cms.gov/js/container_7tO4JMwl.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
+  <!-- Load Matomo Tag Manager -->
+  <script src="/env-config/madie-matomo.js" type="application/javascript"></script>
   <!-- End Matomo Tag Manager -->
 
 </head>
