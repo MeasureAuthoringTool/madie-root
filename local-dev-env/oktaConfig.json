@@ -1,7 +1,7 @@
 {
-  "baseUrl": "https://dev-18092578.okta.com",
-  "issuerUrl": "https://dev-18092578.okta.com/oauth2/default",
-  "clientId": "0oa2fqtaz95fqJqbf5d7",
+  "baseUrl": "https://integrator-3514157.okta.com",
+  "issuerUrl": "https://integrator-3514157.okta.com/oauth2/default",
+  "clientId": "0oatc9xz7lujGBnb3697",
   "scopes": ["profile", "openid", "email"],
   "useClassicEngine": true
 }
