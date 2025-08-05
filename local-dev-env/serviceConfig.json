@@ -40,6 +40,7 @@
     "OverlappingValueSets": false,
     "MinimizeAlerts": false,
     "EditTestsOnVersionedMeasures": false,
+    "Locking": false,
     "EnhancedTextFormatting": false,
     "qiCore7": false
   }
