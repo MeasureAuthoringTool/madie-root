@@ -42,6 +42,7 @@
     "EditTestsOnVersionedMeasures": false,
     "Locking": false,
     "EnhancedTextFormatting": false,
-    "qiCore7": false
+    "qiCore7": false,
+    "TransferMeasure": false
   }
 }
