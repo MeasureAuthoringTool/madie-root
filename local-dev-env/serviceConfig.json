@@ -43,6 +43,7 @@
     "Locking": false,
     "EnhancedTextFormatting": false,
     "qiCore7": false,
-    "TransferMeasure": false
+    "TransferMeasure": false,
+    "MeasureHistory": false
   }
 }
