@@ -29,7 +29,6 @@
   "madieVersion": "1.0.3",
   "features": {
     "qiCoreElementsTab": true,
-    "qiCoreBonnieTestCases": false,
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": false,
     "stu6TestCaseValidation": false,
@@ -44,6 +43,7 @@
     "EnhancedTextFormatting": false,
     "qiCore7": false,
     "TransferMeasure": false,
-    "TransferLibrary": false
+    "TransferLibrary": false,
+    "MeasureHistory": false
   }
 }
