@@ -38,6 +38,7 @@
     "qiCore7": false,
     "TransferMeasure": false,
     "TransferLibrary": false,
-    "MeasureHistory": false
+    "MeasureHistory": false,
+    "Calculator": false
   }
 }
