@@ -35,6 +35,7 @@
     "MeasureSearch": false,
     "LibrarySearch": false,
     "Locking": false,
+    "EnhancedTextFormatting": false,
     "qiCore7": false,
     "TransferMeasure": false,
     "TransferLibrary": false,
