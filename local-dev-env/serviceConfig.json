@@ -28,7 +28,7 @@
   },
   "madieVersion": "1.0.3",
   "features": {
-    "qiCoreElementsTab": false,
+    "qiCoreElementsTab": true,
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": false,
     "stu6TestCaseValidation": false,
