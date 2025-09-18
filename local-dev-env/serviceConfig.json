@@ -29,17 +29,18 @@
   "madieVersion": "1.0.3",
   "features": {
     "qiCoreElementsTab": true,
-    "qdmHideJson": false,
-    "enableQdmRepeatTransfer": false,
+    "qdmHideJson": true,
+    "enableQdmRepeatTransfer": true,
     "stu6TestCaseValidation": false,
-    "MeasureSearch": false,
-    "LibrarySearch": false,
+    "MeasureSearch": true,
+    "LibrarySearch": true,
     "Locking": false,
-    "EnhancedTextFormatting": false,
-    "qiCore7": false,
-    "TransferMeasure": false,
-    "TransferLibrary": false,
-    "MeasureHistory": false,
-    "Calculator": false
+    "EnhancedTextFormatting": true,
+    "qiCore7": true,
+    "TransferMeasure": true,
+    "TransferLibrary": true,
+    "MeasureHistory": true,
+    "Calculator": true,
+    "LibraryHistory":true
   }
 }
