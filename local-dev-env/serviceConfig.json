@@ -40,6 +40,7 @@
     "TransferMeasure": false,
     "TransferLibrary": false,
     "MeasureHistory": false,
-    "Calculator": false
+    "Calculator": false,
+    "LibraryHistory": false
   }
 }
