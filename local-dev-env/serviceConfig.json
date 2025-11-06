@@ -32,19 +32,15 @@
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": false,
     "stu6TestCaseValidation": false,
-    "QDMIncludeRAVValues": false,
-    "QICoreIncludeRAVValues": false,
     "MeasureSearch": false,
     "LibrarySearch": false,
-    "OverlappingValueSets": false,
-    "MinimizeAlerts": false,
-    "EditTestsOnVersionedMeasures": false,
     "Locking": false,
     "EnhancedTextFormatting": false,
     "qiCore7": false,
     "TransferMeasure": false,
     "TransferLibrary": false,
     "MeasureHistory": false,
-    "Calculator": false
+    "Calculator": false,
+    "LibraryHistory": false
   }
 }
