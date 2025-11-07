@@ -1,7 +1,7 @@
 {
-  "baseUrl": "https://dev-18092578.okta.com",
-  "issuerUrl": "https://dev-18092578.okta.com/oauth2/default",
-  "clientId": "0oa2fqtaz95fqJqbf5d7",
+  "baseUrl": "https://dev-madie.okta.com",
+  "issuerUrl": "https://dev-madie.okta.com/oauth2/default",
+  "clientId": "0oa1ygmej9rs8yNyv1d8",
   "scopes": ["profile", "openid", "email"],
   "useClassicEngine": true
 }
