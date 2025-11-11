@@ -42,7 +42,7 @@
     "MeasureHistory": false,
     "Calculator": false,
     "LibraryHistory": false,
-    "CompareLibraryVersions":false,
-    "CompareMeasureVersions":false
+    "CompareLibraryVersions": false,
+    "CompareMeasureVersions": false
   }
 }
