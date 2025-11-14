@@ -43,6 +43,7 @@
     "Calculator": false,
     "LibraryHistory": false,
     "CompareLibraryVersions": false,
-    "CompareMeasureVersions": false
+    "CompareMeasureVersions": false,
+    "ExexcutionConfigurationTab": false
   }
 }
