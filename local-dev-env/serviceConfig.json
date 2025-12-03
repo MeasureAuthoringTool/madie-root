@@ -41,6 +41,10 @@
     "TransferLibrary": false,
     "MeasureHistory": false,
     "Calculator": false,
-    "LibraryHistory": false
+    "LibraryHistory": false,
+    "CompareLibraryVersions": false,
+    "CompareMeasureVersions": false,
+    "ExecutionConfigurationTab": false,
+    "QICoreCompositeMeasure": false
   }
 }
