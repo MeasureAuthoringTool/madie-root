@@ -26,6 +26,9 @@
   "excelExportService": {
     "baseUrl": "http://localhost:3000/api"
   },
+  "userService": {
+    "baseUrl": "http://localhost:8088/api"
+  },
   "madieVersion": "1.0.3",
   "features": {
     "qiCoreElementsTab": true,
