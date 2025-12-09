@@ -48,6 +48,7 @@
     "CompareLibraryVersions": false,
     "CompareMeasureVersions": false,
     "ExecutionConfigurationTab": false,
-    "QICoreCompositeMeasure": false
+    "QICoreCompositeMeasure": false,
+    "DisplayOwner": false
   }
 }
