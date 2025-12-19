@@ -49,6 +49,7 @@
     "CompareMeasureVersions": false,
     "ExecutionConfigurationTab": false,
     "QICoreCompositeMeasure": false,
-    "DisplayOwner": false
+    "DisplayOwner": false,
+    "MakeJSONMatchUI": false
   }
 }
