@@ -34,13 +34,8 @@
     "qiCoreElementsTab": true,
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": false,
-    "Locking": false,
     "EnhancedTextFormatting": false,
     "qiCore7": false,
-    "CompareLibraryVersions": false,
-    "CompareMeasureVersions": false,
-    "QICoreCompositeMeasure": false,
-    "DisplayOwner": false,
-    "MakeJSONMatchUI": false
+    "QICoreCompositeMeasure": false
   }
 }
