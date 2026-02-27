@@ -36,6 +36,7 @@
     "enableQdmRepeatTransfer": false,
     "EnhancedTextFormatting": false,
     "qiCore7": false,
-    "QICoreCompositeMeasure": false
+    "QICoreCompositeMeasure": false,
+    "AdminTransferMeasures": false
   }
 }
