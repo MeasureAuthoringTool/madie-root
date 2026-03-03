@@ -37,6 +37,7 @@
     "EnhancedTextFormatting": false,
     "qiCore7": false,
     "QICoreCompositeMeasure": false,
-    "AdminTransferMeasures": false
+    "AdminTransferMeasures": false,
+    "AdminShareLibrary": false
   }
 }
