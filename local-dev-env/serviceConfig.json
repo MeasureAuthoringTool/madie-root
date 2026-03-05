@@ -38,6 +38,7 @@
     "qiCore7": false,
     "QICoreCompositeMeasure": false,
     "AdminTransferMeasures": false,
-    "AdminShareLibrary": false
+    "AdminShareLibrary": false,
+    "AdminTransferLibrary": false
   }
 }
