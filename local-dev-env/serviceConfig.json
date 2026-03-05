@@ -39,6 +39,6 @@
     "QICoreCompositeMeasure": false,
     "AdminTransferMeasures": false,
     "AdminShareLibrary": false,
-    "AdminTransferLibrary": true
+    "AdminTransferLibrary": false
   }
 }
