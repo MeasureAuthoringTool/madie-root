@@ -8,9 +8,6 @@
   "fhirElmTranslationService": {
     "baseUrl": "http://localhost:8083/api"
   },
-  "testCaseService": {
-    "baseUrl": "http://localhost:8080/api"
-  },
   "cqlLibraryService": {
     "baseUrl": "http://localhost:8082/api"
   },
