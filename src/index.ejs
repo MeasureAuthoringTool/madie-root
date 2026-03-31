@@ -40,12 +40,21 @@
   <!-- Include New Relic browser agent script -->
   <script type="text/javascript" src="newrelic.js"></script>
 
+  <!-- Ensure styled-components can read this global when loaded as an external -->
+  <script type="text/javascript">
+    const SC_DISABLE_SPEEDY = false;
+  </script>
+
   <script type="systemjs-importmap">
     {
       "imports": {
         "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
         "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js",
         "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js",
+        "react-is": "https://cdn.jsdelivr.net/npm/react-is@18.1.0/umd/react-is.production.min.js",
+        "@emotion/react": "https://cdn.jsdelivr.net/npm/@emotion/react@11.9.0/dist/emotion-react.umd.min.js",
+        "@emotion/styled": "https://cdn.jsdelivr.net/npm/@emotion/styled@11.8.1/dist/emotion-styled.umd.min.js",
+        "styled-components": "https://cdn.jsdelivr.net/npm/styled-components@5.3.7/dist/styled-components.min.js",
         "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/rxjs.min.js",
         "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/rxjs-operators.min.js"
       }
