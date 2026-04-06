@@ -26,6 +26,9 @@
   "userService": {
     "baseUrl": "http://localhost:8088/api"
   },
+  "notificationService": {
+    "baseUrl": "http://localhost:8090/api"
+  },
   "madieVersion": "1.0.3",
   "features": {
     "qiCoreElementsTab": true,
