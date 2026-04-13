@@ -37,6 +37,7 @@
     "AdminTransferMeasure": false,
     "AdminShareLibrary": false,
     "AdminTransferLibrary": false,
-    "AdminShareMeasures": false
+    "AdminShareMeasures": false,
+    "testCaseSetId": false
   }
 }
