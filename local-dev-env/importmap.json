@@ -7,6 +7,7 @@
     "@madie/madie-measure": "//localhost:8505/madie-madie-measure.js",
     "@madie/madie-cql-library": "//localhost:8507/madie-madie-cql-library.js",
     "@madie/madie-util": "//localhost:8508/madie-madie-util.js",
+    "@madie/madie-admin": "//localhost:8509/madie-madie-admin.js",
     "rxjs": "https://unpkg.com/@esm-bundle/rxjs/system/rxjs.min.js",
     "rxjs/operators": "https://unpkg.com/@esm-bundle/rxjs/system/rxjs-operators.min.js"
   }
