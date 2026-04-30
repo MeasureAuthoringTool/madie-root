@@ -38,6 +38,7 @@
     "AdminShareLibrary": false,
     "AdminTransferLibrary": false,
     "AdminShareMeasures": false,
-    "testCaseSetId": false
+    "testCaseSetId": false,
+    "AdminUserList": false
   }
 }
