@@ -34,6 +34,7 @@
     "qiCore7": false,
     "QICoreCompositeMeasure": false,
     "testCaseSetId": false,
-    "AdminUserList": false
+    "AdminUserList": false,
+    "usQualityCore": false
   }
 }
