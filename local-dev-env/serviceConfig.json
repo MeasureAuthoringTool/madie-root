@@ -39,6 +39,7 @@
     "AdminTransferLibrary": false,
     "AdminShareMeasures": false,
     "testCaseSetId": false,
-    "AdminUserList": false
+    "AdminUserList": false,
+    "usQualityCore": false
   }
 }
