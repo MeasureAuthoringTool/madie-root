@@ -28,16 +28,11 @@
   },
   "madieVersion": "1.0.3",
   "features": {
-    "qiCoreElementsTab": true,
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": false,
     "EnhancedTextFormatting": false,
     "qiCore7": false,
     "QICoreCompositeMeasure": false,
-    "AdminTransferMeasure": false,
-    "AdminShareLibrary": false,
-    "AdminTransferLibrary": false,
-    "AdminShareMeasures": false,
     "testCaseSetId": false,
     "AdminUserList": false,
     "usQualityCore": false
