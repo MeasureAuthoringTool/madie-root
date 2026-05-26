@@ -19,6 +19,7 @@ module.exports = (webpackConfigEnv, argv) => {
   return merge(defaultConfig, {
     devServer: {
       headers: { "Access-Control-Allow-Origin": "*" },
+      historyApiFallback: { disableDotRule: true },
       static: [
         {
           directory: path.join(
