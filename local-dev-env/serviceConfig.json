@@ -37,6 +37,7 @@
     "AdminUserList": false,
     "AdminUserProfile": false,
     "usQualityCore": false,
-    "MeasureReviewStatus": false
+    "MeasureReviewStatus": true,
+    "LibraryReviewStatus": true
   }
 }
