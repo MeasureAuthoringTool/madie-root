@@ -36,6 +36,8 @@
     "testCaseSetId": false,
     "AdminUserList": false,
     "AdminUserProfile": false,
-    "usQualityCore": false
+    "usQualityCore": false,
+    "MeasureReviewStatus": false,
+    "LibraryReviewStatus": false
   }
 }
