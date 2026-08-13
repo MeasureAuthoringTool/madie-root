@@ -22,13 +22,6 @@ module.exports = (webpackConfigEnv, argv) => {
       historyApiFallback: { disableDotRule: true },
       static: [
         {
-          directory: path.join(
-            __dirname,
-            "node_modules/@madie/madie-layout/dist/"
-          ),
-          publicPath: "/madie-layout",
-        },
-        {
           directory: path.join(__dirname, "local-dev-env"),
           publicPath: "/env-config",
         },
