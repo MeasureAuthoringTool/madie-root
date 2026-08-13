@@ -34,8 +34,8 @@
     "qiCore7": false,
     "QICoreCompositeMeasure": false,
     "testCaseSetId": false,
-    "AdminUserList": true,
-    "AdminUserProfile": true,
+    "AdminUserList": false,
+    "AdminUserProfile": false,
     "usQualityCore": false,
     "MeasureReviewStatus": false,
     "LibraryReviewStatus": false
