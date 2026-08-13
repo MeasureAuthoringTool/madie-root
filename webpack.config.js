@@ -29,20 +29,6 @@ module.exports = (webpackConfigEnv, argv) => {
           publicPath: "/madie-layout",
         },
         {
-          directory: path.join(
-            __dirname,
-            "node_modules/@madie/madie-auth/dist/"
-          ),
-          publicPath: "/madie-auth",
-        },
-        {
-          directory: path.join(
-            __dirname,
-            "node_modules/@madie/madie-measure/dist/"
-          ),
-          publicPath: "/madie-measure",
-        },
-        {
           directory: path.join(__dirname, "local-dev-env"),
           publicPath: "/env-config",
         },
