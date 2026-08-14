@@ -23,7 +23,7 @@
     "@babel/preset-env": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
     "@babel/runtime": "^7.18.6",
-    "@types/jest": "^28.1.4",
+    "@types/jest": "^29.5.14",
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.17.0",
     "concurrently": "^7.2.2",
