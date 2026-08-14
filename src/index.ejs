@@ -19,9 +19,9 @@
     Learn more about CSP policies at https://content-security-policy.com/#directive
   -->
   <% if (isLocal) { %>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; worker-src 'self' blob: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';">
   <% } else { %>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.hcqis.org https://*.cms.gov; style-src 'self' 'unsafe-inline' https://*.hcqis.org https://*.cms.gov https://global.oktacdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.hcqis.org https://*.cms.gov https://cdn.jsdelivr.net https://js-agent.newrelic.com https://gov-bam.nr-data.net; font-src 'self' https://global.oktacdn.com; connect-src 'self' https:; img-src 'self' data: https://*.cms.gov https://*.hcqis.org https://global.oktacdn.com/;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://*.hcqis.org https://*.cms.gov; style-src 'self' 'unsafe-inline' https://*.hcqis.org https://*.cms.gov https://global.oktacdn.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.hcqis.org https://*.cms.gov https://cdn.jsdelivr.net https://js-agent.newrelic.com https://gov-bam.nr-data.net; worker-src 'self' blob:; font-src 'self' https://global.oktacdn.com; connect-src 'self' https:; img-src 'self' data: https://*.cms.gov https://*.hcqis.org https://global.oktacdn.com/;">
   <% } %>
   <meta name="importmap-type" content="systemjs-importmap" />
   <!-- If you wish to turn off import-map-overrides for specific environments (prod), uncomment the line below -->
@@ -94,10 +94,6 @@
   </noscript>
   <main id="main"></main>
 
-  <div id="application-registry" style="display:none;">
-    <div id="madie-auth"></div>
-    <div id="madie-cql-library"></div>
-  </div>
   <script>
     System.import('@madie/root-config');
   </script>

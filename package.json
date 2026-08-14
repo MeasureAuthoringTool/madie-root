@@ -50,9 +50,6 @@
     "serve": "^14.2.5"
   },
   "dependencies": {
-    "@madie/madie-auth": "^0.0.2",
-    "@madie/madie-layout": "^0.0.2",
-    "@madie/madie-measure": "^0.0.2",
     "single-spa": "^5.9.4",
     "systemjs": "^6.12.1"
   },
