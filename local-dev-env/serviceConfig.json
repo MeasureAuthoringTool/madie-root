@@ -33,10 +33,6 @@
     "EnhancedTextFormatting": false,
     "qiCore7": false,
     "QICoreCompositeMeasure": false,
-    "testCaseSetId": false,
-    "AdminUserList": false,
-    "AdminUserProfile": false,
-    "usQualityCore": false,
     "MeasureReviewStatus": false,
     "LibraryReviewStatus": false
   }
