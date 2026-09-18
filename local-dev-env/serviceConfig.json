@@ -31,7 +31,6 @@
     "qdmHideJson": false,
     "enableQdmRepeatTransfer": false,
     "EnhancedTextFormatting": false,
-    "qiCore7": false,
     "QICoreCompositeMeasure": false,
     "MeasureReviewStatus": false,
     "LibraryReviewStatus": false,
