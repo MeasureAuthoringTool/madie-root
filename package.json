@@ -51,7 +51,7 @@
     "webpack-pwa-manifest": "^4.0.0"
   },
   "dependencies": {
-    "single-spa": "^5.9.4",
+    "single-spa": "^6.0.3",
     "systemjs": "^6.12.1"
   },
   "overrides": {
