@@ -14,23 +14,10 @@ module.exports = (webpackConfigEnv, argv) => {
     webpackConfigEnv,
     argv,
     disableHtmlGeneration: true,
+    outputSystemJS: true,
   });
 
   return merge(defaultConfig, {
-    devServer: {
-      headers: { "Access-Control-Allow-Origin": "*" },
-      historyApiFallback: { disableDotRule: true },
-      static: [
-        {
-          directory: path.join(__dirname, "local-dev-env"),
-          publicPath: "/env-config",
-        },
-        {
-          directory: path.join(__dirname, "local-dev-env"),
-          publicPath: "/importmap",
-        },
-      ],
-    },
     // modify the webpack config however you'd like to by adding to this object
     plugins: [
       new HtmlWebpackPlugin({
