@@ -34,6 +34,7 @@
     "QICoreCompositeMeasure": false,
     "MeasureReviewStatus": false,
     "LibraryReviewStatus": false,
-    "Commenting": false
+    "Commenting": false,
+    "MeasureChangeVersion": false
   }
 }
