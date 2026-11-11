@@ -35,6 +35,7 @@
     "MeasureReviewStatus": false,
     "LibraryReviewStatus": false,
     "Commenting": false,
-    "MeasureChangeVersion": false
+    "MeasureChangeVersion": false,
+    "LibraryChangeVersion": false
   }
 }
